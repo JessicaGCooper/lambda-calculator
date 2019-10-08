@@ -4,7 +4,7 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 25px;
 }
 .display {
     margin-top: 25px;
@@ -20,3 +20,5 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+
