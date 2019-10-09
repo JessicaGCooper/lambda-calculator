@@ -16,8 +16,12 @@ const Numbers = (props) => {
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
-       {numeralButton.map((button, index) => (
-         <NumberButton key={index}  nButton={button} />
+       {numeralButton.map((number, index) => (
+         <NumberButton 
+          key={index} 
+          number={number} 
+          displayResult = {props.displayResult} 
+          setDisplayResult={props.setDisplayResult}/>
        ))}
     </div>
   );
